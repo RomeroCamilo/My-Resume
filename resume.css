@@ -1,0 +1,120 @@
+body{
+    
+    background-image: url('../photos/repeatWhite.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*keeps imagine in place no matter if you scroll or not */
+    background-attachment: fixed;
+}
+
+.title{
+    text-align: center;
+    font-family:Helvetica;
+    font-style: italic;
+
+    
+}
+
+.subtitle{
+    margin-top: 0px;
+    text-align: center;
+    color:black;
+   
+}
+
+.section{
+    margin-left:20px;
+    margin-bottom: 5px;
+}
+
+.time1{
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+hr{
+    margin-bottom: 0px;
+    
+}
+
+.git{
+    background-color: black;
+    color:white;
+    border-color: black;
+    border-style: solid;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: opacity .45s;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.6);
+    cursor: pointer;
+}
+
+.git:hover{
+    opacity: .7;
+}
+
+.git:active{
+    opacity:.3;
+}
+
+p{
+    font-weight: bold;
+    line-height: 25px;
+   
+   
+}
+
+
+.box{
+    width:90%;
+    margin: 100px;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+
+
+.right{
+    margin-left: 50%;
+    line-height: 27px;
+    display:inline-block;
+    
+}
+
+.left{
+   
+    margin-right: 0px;
+    line-height: 27px;
+}
+
+hr{
+    margin:0px;
+}
+
+.insideBox{
+    width:70%;
+    margin-right: 0px;
+    display: inline-block;
+}
+
+.sideBox{
+    display:inline-block;
+    vertical-align: top;
+    margin-right: 0px;
+    margin-left: 15%;
+    text-align: right;
+}
+
+.picture{
+    display: block;
+    /* this command is used to center an image. the 3% is used for top and bottom margin amount and auto will set the image to the middle with the correct margin. */
+    margin: 2% auto;
+    width: 12%;
+    border-radius: 200px;
+    
+   
+    
+}
