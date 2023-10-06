@@ -1,3 +1,3 @@
 # My-Resume
 
-Recreated my resume from google docs
+Recreated my resume from google docs here.
